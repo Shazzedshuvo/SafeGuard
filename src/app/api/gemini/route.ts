@@ -77,7 +77,7 @@ export async function POST(req: Request) {
 
     if (!apiKey) {
       return NextResponse.json(
-        { error: "Gemini API Key not found. Please provide an API key." },
+        { error: "AI API Key not found. Please provide an API key." },
         { status: 400 }
       );
     }

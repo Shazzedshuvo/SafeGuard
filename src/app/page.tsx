@@ -427,7 +427,7 @@ export default function Home() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#1dbf73] opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#1dbf73]"></span>
               </span>
-              <span>Gemini AI Connected</span>
+              <span>AI Connected</span>
             </div>
 
             {/* Premium Day / Night Switcher */}
@@ -1092,7 +1092,7 @@ Best regards.`}
                   {isFormatting ? (
                     <>
                       <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                      <span>Gemini AI নোটস গুছিয়ে ফরম্যাট করছে...</span>
+                      <span>AI নোটস গুছিয়ে ফরম্যাট করছে...</span>
                     </>
                   ) : (
                     <>
@@ -1700,8 +1700,8 @@ Best regards.`}
               Fiverr SafeGuard Pro • Designed for Freelancers
             </span>
           </div>
-          <div className={isLight ? "text-slate-500" : "text-slate-400"}>
-            Next.js 16 • Tailwind CSS • Google Gemini AI
+          <div className={`font-medium ${isLight ? "text-slate-600" : "text-slate-400"}`}>
+            Made by <span className="font-bold text-[#1dbf73]">Sazzad Shuvo</span>
           </div>
         </div>
       </footer>
